@@ -1,3 +1,4 @@
+--şş
 local b = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
 function util.Base64Decode(data)
     data = string.gsub(data, '[^'..b..'=]', '')
