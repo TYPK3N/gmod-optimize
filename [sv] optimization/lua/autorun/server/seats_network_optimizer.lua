@@ -1,7 +1,7 @@
 if game.SinglePlayer() then
 	return
 end
-
+--
 local hook = hook
 
 local ents_FindByClass = ents.FindByClass
