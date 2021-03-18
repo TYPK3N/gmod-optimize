@@ -1,3 +1,4 @@
+--s
 function table.Filter(tab, callback)
 	local i, e, c = 0, #tab, 1
 
