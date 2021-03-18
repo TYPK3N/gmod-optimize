@@ -1,7 +1,7 @@
 if (not system.IsLinux()) then return end
 --
 local colorClearSequence = '\27[0m'
-
+--
 local function rgbToAnsi256(r, g, b) // https://stackoverflow.com/questions/15682537/ansi-color-specific-rgb-sequence-bash?answertab=votes#tab-top
 	if (r == g) and (g == b) then
 		if (r < 8) then
